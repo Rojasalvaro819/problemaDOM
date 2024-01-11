@@ -1,0 +1,296 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: transparent;
+  justify-content: space-between;
+  text-align: center;
+  position: fixed;
+  z-index: 1000;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+header a {
+  color: black;
+}
+.Logo {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.Logo ul {
+  margin-left: 30px;
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+}
+.Logo ul li a {
+  color: black;
+}
+.Logo ul li:hover {
+  scale: 1.2;
+  transition: all 0.6s;
+}
+.nombre__empresa a {
+  font-family: "Advent Pro", sans-serif;
+  color: rgba(222, 7, 7, 0.9);
+  margin: 0px 35px;
+}
+.nombre__empresa:hover {
+  scale: 1.1;
+  transition: all 0.5s;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+.botones__acciones {
+  display: flex;
+  gap: 30px;
+  margin-right: 70px;
+}
+.botones__acciones a :hover {
+  scale: 1.3;
+  transition: all 0.6s;
+}
+
+.section1 {
+  background-color: #dcdcdc;
+  width: 95%;
+  border-radius: 2rem;
+  margin: 80px 10px 0px 10px;
+  height: calc(100vh - 80px);
+}
+.textos {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: -30px 0px 0px 5rem;
+}
+.primer__texto {
+  font-family: "Advent Pro", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+}
+.segundo__texto {
+  font-size: 50px;
+  font-family: "Advent Pro", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+}
+.auriculares__uno {
+  font-family: "Advent Pro", sans-serif;
+  font-family: "Anton", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-size: 12vw;
+  color: #fbfbfbcb;
+  letter-spacing: 10px;
+}
+.auriculares__div {
+  position: absolute;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.foto__auriculares {
+  rotate: 20deg;
+  width: 23vw;
+  margin-left: 500px;
+}
+.div__boton__auriculares {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 90%;
+  position: absolute;
+}
+.boton__auriculares {
+  margin: 33rem 0px 0px 30px;
+  width: 250px;
+  height: 35px;
+  border-radius: 1rem;
+  border: solid 2px rgb(244, 20, 20);
+  color: white;
+  letter-spacing: 1.5px;
+  background-color: rgb(244, 20, 20);
+  font-family: "Advent Pro", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+.boton__auriculares:hover {
+  cursor: pointer;
+  background-color: #191f34;
+  transition: all 1.2s;
+  border: solid 2px #191f34;
+}
+.descripcion1 {
+  font-family: "Advent Pro", sans-serif;
+  font-family: "Inter", sans-serif;
+  margin-left: 20px;
+}
+.contenedor_texto {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.section2 {
+  margin-top: 44.2rem;
+  border-radius: 2rem;
+  width: 95%;
+  height: 500px;
+  position: absolute;
+}
+.contenedor {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.auris__cable {
+  display: flex;
+  width: 20%;
+  height: 60%;
+  background-color: black;
+  border-radius: 1.2rem;
+  border: solid 1px black;
+  margin: 10px 0px 0px 0px;
+}
+.auris__cable img {
+  width: 50%;
+  height: 85%;
+  margin-left: 30px;
+  rotate: 15deg;
+  margin-top: -20px;
+}
+.textosauris {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  font-family: "Advent Pro", sans-serif;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  width: 30%;
+  gap: 10px;
+}
+.enjoy {
+  width: 30%;
+  color: grey;
+  font-size: 12px;
+}
+.with {
+  width: 30%;
+  color: grey;
+  font-size: 100%;
+  letter-spacing: 2px;
+}
+.earphone {
+  width: 30%;
+  color: rgba(134, 132, 132, 0.559);
+  font-size: 38px;
+}
+.reloj {
+  display: flex;
+  width: 20%;
+  height: 60%;
+  background-color: #ffde59;
+  border-radius: 1.2rem;
+  border: solid 1px #ffde59;
+  margin: 10px 0px 0px 0px;
+}
+.gad {
+  font-size: 60px;
+  color: rgba(128, 128, 128, 0.407);
+}
+.now {
+  color: gray;
+}
+.wear {
+  color: gray;
+}
+.relojes {
+  position: absolute;
+  width: 12%;
+  height: 40%;
+  margin-top: 20px;
+  margin-left: 110px;
+  rotate: -10deg;
+}
+.contenedor__netbook{
+  margin: 10px 0px 0px 0px;
+  display: flex;
+  width: 48%;
+  height: 60%;
+  border: solid 3px red;
+  border-radius: 1rem;
+  background-color: rgb(244, 37, 37);
+}
+.texto__netbook {
+  display: flex;
+  align-items: baseline;
+  margin-left: 25px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Advent Pro", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+.trend {
+  color: white;
+}
+.devices {
+  color: white;
+}
+.laptop {
+  letter-spacing: 2px;
+  font-size: 400%;
+  color: rgba(255, 255, 255, 0.585);
+}
+.notebook__img {
+  position: relative;
+  width: 70%;
+  height: 70%;
+  margin-top: 20px;
+  rotate: -16deg;
+}
+.segundo {
+  background-color: rgb(212, 210, 210);
+  border: rgb(212, 210, 210);
+}
+.play5__img {
+  margin-left: 10px;
+  margin-top: 20px;
+  filter: drop-shadow(0px 10px 20px);
+}
+.best {
+  color: black;
+}
+.gaming {
+  color: black;
+}
+.oculusback {
+  background-color: rgb(11, 189, 11);
+  border: rgb(11, 189, 11);
+}
+.oculusback img {
+  rotate: -1deg;
+  margin-top: 45px;
+}
